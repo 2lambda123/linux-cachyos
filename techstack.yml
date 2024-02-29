@@ -1,0 +1,43 @@
+repo_name: 2lambda123/linux-cachyos
+report_id: '065129bdaf3bdd1d6f9ebd94979c7a3a'
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-29T19:17:21+00:00'
+requested_by: ptr1337
+provider: github
+branch: master
+detected_tools_count: 3
+tools:
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/2lambda123/linux-cachyos
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/2lambda123/linux-cachyos/blob/master/.github/workflows/lint.yml
+  detection_source: ".github/workflows/lint.yml"
+  last_updated_by: Vasiliy Stelmachenok
+  last_updated_on: 2023-06-16 21:17:51.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/2lambda123/linux-cachyos
+  detection_source: Repo Metadata
